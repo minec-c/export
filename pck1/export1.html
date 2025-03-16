@@ -225,7 +225,7 @@
 				setStatusMode('indeterminate');
 				Promise.all([engine.init(mywasm),engine.preloadFile(mypck)
 				]).
-				ten(()=>{
+				then(()=>{
 				engine.startGame({
 					'onProgress': function (current, total) {
 						if (total > 0) {
