@@ -1,0 +1,4 @@
+core/math/transform_2d.cpp:49 - Condition "det == 0" is true. #62463
+Godot 3.5 fix: bone2D.rest = Transform2D(Vector2(1,0),Vector2(0,1),Vector2(11,11))
+https://github.com/godotengine/godot/issues/62463
+--------
